@@ -1,0 +1,60 @@
+<html>
+      <head>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="look.css">
+  
+  </head>
+  <body>
+<center>
+<h2 class="btn btn-danger">Face Recognition App</h2>
+<br>
+<br>
+<br>
+<b class="name">
+Eddie
+<hr>
+Paxton
+<hr>
+Mom
+<hr>
+Dad
+<hr>
+Coco
+<hr>
+Elysa
+<hr>
+</b>
+<div id="camera"></div>
+    <br>
+    <br>
+    <br>
+<div id="result"></div>
+<br>
+<br>
+<br>
+<br>
+<button id="nevergonnausethisid" class="btn btn-info" onclick="caphoto()">Capture Image</button>
+<br>
+<br>
+<br>
+<br>
+<button class="btn btn-danger" onclick="check()">Check</button>
+<br>
+<br>
+<p>Name: <span id="name"></span></p>
+<br>
+<p>Accuracy: <span id="accuracy"></span></p>
+<script src="important.js">
+
+</script>
+</center>
+  </body>
+</html>
